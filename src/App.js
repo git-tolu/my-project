@@ -1,11 +1,12 @@
 import './App.css';
-import Heading from "./components/Functional";
-// import Hello from "./components/Class";
+// import Nav from "./components/Nav";
+import RegisterForm from "./components/useState";
+import Modal from './components/Modal';
 function App() {
   return (
     <div className="App">
-      <Heading />
-      {/* <Hello /> */}
+      <RegisterForm />
+      <Modal />
     </div>
   );
 }
